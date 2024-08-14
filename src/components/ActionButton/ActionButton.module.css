@@ -1,0 +1,20 @@
+.outerButton,
+.innerButton {
+  width: 160px;
+  height: 35px;
+  font-size: 1rem;
+  background-color: white;
+  border-radius: 85px;
+  color: #061c18;
+}
+.outerButton {
+  position: absolute;
+  z-index: 1;
+}
+.innerButton {
+  position: absolute;
+  top: 0;
+  transform: translate(5%, 5%);
+  z-index: 0;
+  background-color: #061c18;
+}

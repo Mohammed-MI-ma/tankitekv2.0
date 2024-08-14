@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom styles here */
+html,
+body {
+  font-size: 12px;
+  background-color: #d9ebe8;
+}
+
+:root {
+  --font-primary: "Primary-Regular", sans-serif;
+}
+
+/* Font Sizes */
+:root {
+  --font-extra-small-size: 0.625rem;
+  --font-small-size: 0.875rem;
+  --font-medium-size: 1rem;
+  --font-large-size: 1.125rem;
+  --font-extra-large-size: 1.5rem;
+
+  /* Colors */
+  --color-primary: #088772;
+  --color-shade1: #083f36;
+  --color-shade2: #061c18;
+  --color-text: #4a4a4a;
+  --color-accent: #ffffff;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-shade2) #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0.25px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--color-shade2);
+  border-radius: 0px;
+  border: 1px solid var(--color-shade2);
+}
